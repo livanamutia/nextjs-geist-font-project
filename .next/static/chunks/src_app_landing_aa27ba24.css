@@ -1,0 +1,23 @@
+/* [project]/src/app/landing.css [app-client] (css) */
+.animate-fadeIn {
+  animation: 1s ease-in forwards fadeIn;
+}
+
+.delay-300 {
+  animation-delay: .3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/*# sourceMappingURL=src_app_landing_aa27ba24.css.map*/
